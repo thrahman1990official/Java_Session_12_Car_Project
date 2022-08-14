@@ -17,6 +17,11 @@ class Car
   String name; //car name
   String color; //car color
   
+  public Car()
+    {
+    System.out.println("inside default constructor");
+    }
+  
   public Car(int id, String name, String color) //creating constructor for car
     {
     super();
