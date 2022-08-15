@@ -33,7 +33,7 @@ class Car extends Machine
   public Car(int id, String name, String color) //creating constructor for car
     {
     super();
-    System.out.println("inside fully paramterized constructor");
+    System.out.println("inside fully paramterized constructor of car class");
     this.id = id;
     this.name = name;
     this.color = color;
