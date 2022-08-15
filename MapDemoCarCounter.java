@@ -8,7 +8,7 @@ public class MapDemoCarCounter
     {
     //below are two constructors
      Car c1 = new Car(); //Object type is Car & object is c1
-     Car c2 = new Car(1, "hyundai", "red"); //Object type is Car & object is c2
+     Car c2 = new Car(1, "hyundai", "red"); //Object type is Car & object is c2, id is 1, car name is hyundai, color is red
     }
   }
   
@@ -18,6 +18,7 @@ class Car
   String name; //car name
   String color; //car color
   
+ //since they are two constructors, this is a concept of constructor overloading
   public Car()
     {
     System.out.println("inside default constructor");
