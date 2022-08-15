@@ -16,8 +16,8 @@ public class MapDemoCarCounter
     }
   }
   
-//default constructor = empty constructor vs parameterized constructor
-class Car extends Machine
+//default constructor is provided by default = empty constructor vs parameterized constructor
+class Car extends Machine //for the car class, machine is the super-class
   {
   int id; //car manufacturing identification, the default for integer id will be zero
   String name; //car name, the default for string name will be null
