@@ -9,12 +9,14 @@ public class MapDemoCarCounter
     //below are two constructors
      Car c1 = new Car(); //Object type is Car & object is c1
       c1.id = 20;
-      c2.name = "tesla";
+      c1.name = "tesla";
+      c1.color = "blue";
+    
      Car c2 = new Car(1, "hyundai", "red"); //Object type is Car & object is c2, id is 1, car name is hyundai, color is red
     }
   }
   
-class Car
+class Car extends Object
   {
   int id; //car manufacturing identification, the default for integer id will be zero
   String name; //car name, the default for string name will be null
