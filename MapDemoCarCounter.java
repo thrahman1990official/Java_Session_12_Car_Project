@@ -42,4 +42,8 @@ claas Machine
 {
 int machineId;
 String manufacturingName;
+  public Machine()
+    {
+    System.out.println("inside");
+    }
 }
