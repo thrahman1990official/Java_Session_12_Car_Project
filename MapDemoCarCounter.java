@@ -37,3 +37,9 @@ class Car extends Machine
     this.color = color;
     }
   }
+
+claas Machine
+{
+int machineId;
+String manufacturingName;
+}
