@@ -38,7 +38,7 @@ class Car extends Machine
     }
   }
 
-claas Machine
+class Machine
 {
 int machineId;
 String manufacturingName;
