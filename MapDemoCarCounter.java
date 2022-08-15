@@ -44,6 +44,6 @@ int machineId;
 String manufacturingName;
   public Machine()
     {
-    System.out.println("inside");
+    System.out.println("inside default constructor of Machine");
     }
 }
