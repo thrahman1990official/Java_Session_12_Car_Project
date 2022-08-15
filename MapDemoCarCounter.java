@@ -8,6 +8,21 @@ public class MapDemoCarCounter
     {    
      Car c1 = new Car(1, "hyundai", "red"); //Object type is Car & object is c2, id is 1, car name is hyundai, color is red
       Car c2 = new Car(2, "kia", "red");
+        Car c3 = new Car(3, "jetta", "orange");
+          Car c4 = new Car(4, "mercedes", "red");
+    
+      List<Car> carList = new ArrayList<>();
+        carList.add(c1);
+        carList.add(c2);
+        carList.add(c3);
+        carList.add(c4);
+    
+        countCarsByColor(carList);
+    }
+  
+  private static void countCarsByColor(List<Car> carList)
+    {
+    
     }
   }
   
