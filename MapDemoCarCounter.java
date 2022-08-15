@@ -26,12 +26,14 @@ class Car extends Machine
  //since they are two constructors, this is a concept of constructor overloading
   public Car()
     {
-    System.out.println("inside default constructor");
+    super();
+    System.out.println("inside default constructor of car class");
     }
   
   public Car(int id, String name, String color) //creating constructor for car
     {
     super();
+    System.out.println("inside fully paramterized constructor");
     this.id = id;
     this.name = name;
     this.color = color;
