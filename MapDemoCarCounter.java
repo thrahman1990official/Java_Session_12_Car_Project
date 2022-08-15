@@ -6,8 +6,9 @@ public class MapDemoCarCounter
   {
   public static void main(String[] arg)
     {
+    //below are two constructors
      Car c1 = new Car(); //Object type is Car & object is c1
-     Car c2 = new Car(); //Object type is Car & object is c2
+     Car c2 = new Car(1, "hyundai", "red"); //Object type is Car & object is c2
     }
   }
   
