@@ -7,6 +7,7 @@ public class MapDemoCarCounter
   public static void main(String[] args)
     {    
      Car c1 = new Car(1, "hyundai", "red"); //Object type is Car & object is c2, id is 1, car name is hyundai, color is red
+      Car c2 = new Car(2, "kia", "red");
     }
   }
   
